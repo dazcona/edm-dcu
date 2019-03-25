@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<FIRST_RESULT_F &le; 0.5<br/>gini = 0.215<br/>samples = 12648<br/>value = [1547, 11101]<br/>class = F>, fillcolor="#399de5db"] ;
+1 [label=<PASS_M8_N &le; 0.5<br/>gini = 0.006<br/>samples = 11136<br/>value = [35, 11101]<br/>class = F>, fillcolor="#399de5fe"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<CANX_2014.0 &le; 0.5<br/>gini = 0.0<br/>samples = 11101<br/>value = [2, 11099]<br/>class = F>, fillcolor="#399de5ff"] ;
+1 -> 2 ;
+3 [label=<FEB_CANX_LEFT_Y &le; 0.5<br/>gini = 0.0<br/>samples = 11100<br/>value = [1, 11099]<br/>class = F>, fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 11097<br/>value = [0, 11097]<br/>class = F>, fillcolor="#399de5ff"] ;
+3 -> 4 ;
+5 [label=<AGE_AT_START &le; 18.45<br/>gini = 0.444<br/>samples = 3<br/>value = [1, 2]<br/>class = F>, fillcolor="#399de57f"] ;
+3 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0]<br/>class = P>, fillcolor="#e58139ff"] ;
+5 -> 6 ;
+7 [label=<gini = 0.0<br/>samples = 2<br/>value = [0, 2]<br/>class = F>, fillcolor="#399de5ff"] ;
+5 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0]<br/>class = P>, fillcolor="#e58139ff"] ;
+2 -> 8 ;
+9 [label=<FIRST_RESULT_P &le; 0.5<br/>gini = 0.108<br/>samples = 35<br/>value = [33, 2]<br/>class = P>, fillcolor="#e58139f0"] ;
+1 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 33<br/>value = [33, 0]<br/>class = P>, fillcolor="#e58139ff"] ;
+9 -> 10 ;
+11 [label=<gini = 0.0<br/>samples = 2<br/>value = [0, 2]<br/>class = F>, fillcolor="#399de5ff"] ;
+9 -> 11 ;
+12 [label=<gini = 0.0<br/>samples = 1512<br/>value = [1512, 0]<br/>class = P>, fillcolor="#e58139ff"] ;
+0 -> 12 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
