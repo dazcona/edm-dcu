@@ -1,0 +1,8 @@
+.DS_Store
+env/*
+.vscode/
+src/*.pyc
+src/__pycache__
+data/
+logs/
+notebooks/.ipynb_checkpoints/
