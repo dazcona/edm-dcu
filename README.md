@@ -6,7 +6,7 @@
 | :-------------: | :-------------:|
 | 16,786 | 137 |
 
-[List of fields](fields.md)
+[List of fields](docs/fields.md)
 
 ## Notebooks
 
@@ -29,20 +29,20 @@ You can always view a notebook using https://nbviewer.jupyter.org/
 
 ## Figures
 
-EDA: Exploring CAO Points
+**EDA**: Exploring CAO Points
 ![](figures/exploring_CAO_POINTS.png)
 
-Correlations:
+**Correlations**:
 ![](figures/correlations.png)
 
-Scatter plot: CAO Points vs Leving Cert Math Points
+**Scatter plot**: CAO Points vs Leving Cert Math Points
 ![](figures/scatter_CAO_POINTS_LC_MATHS_POINTS.png)
 
-Decision Tree:
+**Decision Tree**:
 ![](figures/tree.png)
 
-Random Forest: Top 10 Most Important Features
+**Random Forest**: Top 10 Most Important Features
 ![](figures/modelling_Random_Forest_Top_10_Feature_Importances.png)
 
-Linear Model: Ablation Study by Excluding Features
+**Linear Model**: Ablation Study by Excluding Features
 ![](figures/linear_model_variance_explained_by_excluding_features.png)
