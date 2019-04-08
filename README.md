@@ -39,7 +39,7 @@ You can always view a notebook using https://nbviewer.jupyter.org/
 ![](figures/scatter_CAO_POINTS_LC_MATHS_POINTS.png)
 
 **Decision Tree to predict the final RESULT**:
-![](figures/tree.png)
+![](figures/tree_RESULT.png)
 
 **Random Forest**: Top 10 Most Important Features
 ![](figures/modelling_Random_Forest_Top_10_Feature_Importances.png)
