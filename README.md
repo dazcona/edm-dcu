@@ -17,7 +17,7 @@
 5. [Split the data](notebooks/Split%20train%20%26%20test%20sets.ipynb): split the dataset into Train and Test sets
 6. [Decision Tree](notebooks/Modelling%20a%20Decision%20Tree.ipynb): modelling a Decision Tree classifier
 7. [Random Forest](notebooks/Modelling%20a%20Random%20Forest.ipynb): modelling a Random Forest classifier and analysing the power of their features
-8. [Linear Models & Ablation studies](notebooks/Ablation%20Study.ipynb): fitting a Logistic Regression classifier and running ablation studies to measure the variance explained by the features
+8. [Linear Models & Ablation studies](notebooks/Ablation%20Study.ipynb): fitting a Linear Regression model and running ablation studies to measure the variance explained by the features
 
 ## Tutorials
 
