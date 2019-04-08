@@ -38,7 +38,7 @@ You can always view a notebook using https://nbviewer.jupyter.org/
 **Scatter plot**: CAO Points vs Leving Cert Math Points
 ![](figures/scatter_CAO_POINTS_LC_MATHS_POINTS.png)
 
-**Decision Tree**:
+**Decision Tree to predict the final RESULT**:
 ![](figures/tree.png)
 
 **Random Forest**: Top 10 Most Important Features
