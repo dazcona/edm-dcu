@@ -11,7 +11,9 @@
 ## Notebooks
 
 1. [EDA](notebooks/EDA.ipynb): Exploratory Data Analysis by looking at all the fields and their values
-2. [Correlations & Scatter plots](notebooks/Scatter%20%26%20Correlations.ipynb): pair-wise correlations
+2. Data Summarization:
+   * [Correlations & Scatter plots](notebooks/2.1.%20Data%20summarization.%20Correlations%20and%20scatter%20plots.ipynb)
+   * [Distributions](notebooks/2.1.%20Data%20summarization.%20Distributions.ipynb)
 3. [Features](notebooks/Features.ipynb): extract features from the fields
 4. [Dimensionality Reduction]((notebooks/Dimensionality%20Reduction.ipynb)): PCA, tSNE, UMAP
 5. [Split the data](notebooks/Split%20train%20%26%20test%20sets.ipynb): split the dataset into Train and Test sets
