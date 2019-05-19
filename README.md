@@ -1,5 +1,9 @@
 # Analysis on Student Data
 
+Leveraging data for 16K students, what can we say about the student experience at this university?
+
+Can this data help us with student success?
+
 ## Data
 
 | Number of students | Number of fields |
@@ -20,12 +24,14 @@
 6. [Decision Tree](notebooks/Modelling%20a%20Decision%20Tree.ipynb): modelling a Decision Tree classifier
 7. [Random Forest](notebooks/Modelling%20a%20Random%20Forest.ipynb): modelling a Random Forest classifier and analysing the power of their features
 8. [Linear Models & Ablation studies](notebooks/Ablation%20Study.ipynb): fitting a Linear Regression model and running ablation studies to measure the variance explained by the features
+9. [Mutual Information Exploration](notebooks/9.%20Mutual%20Information%20Exploration.ipynb): measuring the mutual information (mutual dependence between two variables) of each of the features we figured as important (based on the ablation study) and the precision mark.
 
 ## Tutorials
 
 * [Intro to NetworkX](notebooks/Intro%20to%20Networkx.ipynb)
 * [Intro to UMAP](notebooks/Intro%20to%UMAP.ipynb)
 * [Intro to Embeddings](notebooks/Intro%20to%Embeddings.ipynb)
+* [Intro to Mutual Information](notebooks/Intro%20to%20Mutual%20Information.ipynb)
 
 You can always view a notebook using https://nbviewer.jupyter.org/
 
